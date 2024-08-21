@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #003838;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+}
+
+.container header{
+    background-color: darkcyan;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    place-content: end;
+}
+
+.container header input{
+    padding: 10px 30px ;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #003838;
+    color: lightcyan;
+}
+
+.container header .fa-magnifying-glass{
+    position: relative;
+    right: 40px;
+    top: 15px;
+}
+
+.container header a .fa-home{
+    color: #003838;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+
+.container header a .fa-gear{
+    color: #003838;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container header a .fa-home:hover{
+    border-radius: 50%;
+    background-color: #003838;
+    padding: 4px;
+    color: lightcyan;
+}
+
+.container header a .fa-gear:hover{
+    border-radius: 100%;
+    background-color: #003838;
+    padding: 4px;
+    color: lightcyan;
+}
+
+.container .content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.container .content .input_group{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-items:center ;
+    background-color: #005353;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.container .content .input_group input{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.container .content .input_group input:focus{
+    box-shadow: 0 0 15px darkcyan, 0 0 25px cyan, 0 0 35px lightcyan;
+}
+
+.container .content .input_group i{
+    background-color: darkcyan;
+    position: relative;
+    place-self: start;
+    padding: 10px;
+    top: 36px;
+    /* left: 30px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .content .input_group .fa-eye-slash{
+    background-color: transparent;
+    color: darkcyan;
+    position: relative;
+    place-self: end;
+    top: -165px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.container .content .input_group button{
+    margin-top: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .content .input_group button:hover{
+    box-shadow: 0 0 15px darkcyan, 0 0 25px cyan, 0 0 35px lightcyan;
+}
+
+.container .p1{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container .p1 a{
+    color: cyan;
+    text-decoration: none;
+}
+
+.container .p2{
+    margin-top: 0;
+}
+
+footer{
+    background-color: darkcyan;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container .fa-google{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container .fa-google:hover{
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 100%;
+    color: cyan;
+    box-shadow: 0 0 25px cyan;
+}
+
+.pass_inc{
+    font-size: 16px;
+    color: rgb(185, 85, 85);
+    font-weight: bold;
+    position: absolute;
+    top: 410px;
+    visibility: hidden;
+}
+
+
+
